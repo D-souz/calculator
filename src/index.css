@@ -13,7 +13,10 @@
   font-size: 25px;
   text-align: end;
 }
-#clear {
+.fomulaScreen {
+  color: orange;
+}
+ #clear {
  background-color: rgb(172, 57, 57);
 }
 #equals {
@@ -27,11 +30,15 @@
 }
 #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #del{
   background-color: #4d4d4d;
-  outline: 1px solid black;
   font-family: Share Tech Mono, monospace;
+} 
+button {
+  border: none;
+  outline: 1px solid black;
+  color: white;
   cursor: default;
 }
-#clear:hover, #equals:hover, #add:hover, #divide:hover, #multiply:hover, #subtract:hover, #decimal:hover, #one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #zero:hover, #del:hover{
+button:hover {
   color: black;
   outline: 0.05em solid grey;
   z-index: 3;
