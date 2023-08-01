@@ -28,6 +28,11 @@
   font-family: ubuntu;
   cursor: default;
 }
+#add:hover, #divide:hover, #multiply:hover, #subtract:hover, #decimal:hover{
+  color: black;
+  outline: 0.05em solid grey;
+  z-index: 3;
+}
 #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #del{
   background-color: #4d4d4d;
   font-family: Share Tech Mono, monospace;

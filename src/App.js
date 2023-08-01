@@ -65,7 +65,7 @@ function clearDisplay() {
     <div className="container">
       <div className="text-center">
         <h3>Calculator designed</h3>
-        <span>By <a href="https://github.com/D-souz/calculator">D'souz</a>D'souz</span>
+        <span>By <a href="https://github.com/D-souz/calculator">D'souz</a></span>
         <div className="container bg-dark col-4 mt-5 text-center" id="cal">
           <div className="row" id="display-screen">
             {/* <div className="fomulaScreen align-right">expression</div> */}
